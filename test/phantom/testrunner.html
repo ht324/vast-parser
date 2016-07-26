@@ -13,13 +13,6 @@
 <script type="text/javascript" src="../../node_modules/sinon-chai/lib/sinon-chai.js"></script>
 <script type="text/javascript" src="../../node_modules/chai-as-promised/lib/chai-as-promised.js"></script>
 <script type="text/javascript" src="../../node_modules/sinon/pkg/sinon.js"></script>
-
-<!--<script type="text/javascript" src="http://sinonjs.org/releases/sinon-1.10.3.js"></script>-->
-
-
-
-
-
 <script type="text/javascript">
     function useSinonAsPromised(sinon, Promise) {
         var internals = {};
@@ -56,6 +49,7 @@
     expect = chai.expect;
     useSinonAsPromised(sinon, ES6Promise.Promise);
 </script>
+<script type="text/javascript" src="../../dist/bundle.js"></script>
 <script data-main="test.config.js" src="../../node_modules/requirejs/require.js"></script>
 </body>
 </html>

@@ -48,7 +48,7 @@ describe('VAST Chainer', function(){
             };
 
             injector.store(['jquery', 'vast-parser', 'vastErrorCodes', 'vastError', 'model/vastResponse', 'util/helpers']);
-            injector.mock('es6promise', mockEs6PromiseShim);
+            injector.mock('es6-promise', mockEs6PromiseShim);
             injector.require(['vastChainer', 'mocks'], function(module, mocks) {
                 vastChainer = module;
 

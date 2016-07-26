@@ -1,4 +1,4 @@
-define(['jquery', './vast-parser', 'es6promise', './vastErrorCodes', './vastError', './model/vastResponse', './util/helpers'],
+define(['jquery', './vast-parser', 'es6-promise', './vastErrorCodes', './vastError', './model/vastResponse', './util/helpers'],
     function($, vastParser, promiseShim, vastErrorCodes, VastError, VastResponse, helpers) {
 
         var AJAX_TIMEOUT = 10000,
