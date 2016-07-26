@@ -1,7 +1,7 @@
 var path = require('path');
 
 module.exports = {
-    entry: './src/js/vastChainer.js',
+    entry: './src/vastChainer.js',
     output: {
         filename: 'bundle.js',
         path: path.resolve(__dirname, 'dist/')

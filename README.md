@@ -8,8 +8,7 @@ The library currently makes use of the current projects and is dependent on them
 
 - [RequireJS](http://requirejs.org/)
 - [jQuery](https://jquery.com/)
-- [Q](https://github.com/kriskowal/q)
-- [Validator](https://github.com/chriso/validator.js)
+- [es6-promise](https://github.com/stefanpenner/es6-promise)
 
 ## Usage
 
@@ -21,7 +20,7 @@ The main module to use is `vastAdManager` which exposes two functions:
 ### requestVastChain
 
 The `requestVastChain` returns a promise and will resolve once it has finished downloading all of the VAST files in the chain.
-It returns a `VastResponse` [object](https://github.com/unruly/vast-parser/blob/master/src/js/model/vastResponse.js).
+It returns a `VastResponse` [object](https://github.com/unruly/vast-parser/blob/master/src/model/vastResponse.js).
 
 
 ```
@@ -48,7 +47,7 @@ Each event passes has the following properties available:
 
 - `requestNumber` - the current request number, which can be more than one when VAST wrapper files are used
 - `uri` - the URI for the request
-- `vastResponse` - the `VastResponse` [object](https://github.com/unruly/vast-parser/blob/master/src/js/model/vastResponse.js) that is being added to while following a chain of VAST files.
+- `vastResponse` - the `VastResponse` [object](https://github.com/unruly/vast-parser/blob/master/src/model/vastResponse.js) that is being added to while following a chain of VAST files.
 
 ## Running Tests
 

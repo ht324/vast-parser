@@ -1,5 +1,5 @@
 require.config({
-    baseUrl: '../../../src/js',
+    baseUrl: '../../../src',
     paths: {
         Squire: '../../node_modules/squirejs/src/Squire',
         text: '../../node_modules/requirejs-text/text',
